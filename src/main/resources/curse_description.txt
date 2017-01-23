@@ -1,0 +1,9 @@
+This is just so i can have a couple things in a modpack that's dirstributed here on curse(amc link.)
+It's poorly done and should not be used.
+
+Several textures by Futureazoo are used from https://github.com/Futureazoo/TextureRepository
+(capacitor,  carbon fibre, carbon_fibre_plate, coal_dust, integrated_circuit, resistor, silicon, and sword_future)
+
+Please only use in curse modpacks. 
+Regardless of what launcher it's on, leave a comment letting me know you're using it, with a link for more info on the pack.
+If you dm asking for permission then you'll be denied because you didn't read the previous sentence.

@@ -1,0 +1,12 @@
+{
+    "normal" : [{}],
+    "inventory" : [{}],
+    "variants" :
+    {
+     "meta=red" : { "model":"nobalance:redblock" },
+     "meta=cork" : { "model":"nobalance:corkboard" },
+     "meta=tile" : { "model":"nobalance:basictile" },
+     "meta=brick" : { "model":"nobalance:basicbrick" },
+     "meta=sweet" : { "model":"nobalance:sugarcube" }
+    }
+}

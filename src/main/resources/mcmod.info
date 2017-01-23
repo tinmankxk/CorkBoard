@@ -1,0 +1,17 @@
+[
+{
+  "modid": "corkboard",
+  "name": "corkboard",
+  "description": "These are just things. Hi.",
+  "version": "1.0.1",
+  "mcversion": "1.10.2}",
+  "logoFile": "",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["tinmankxk"],
+  "credits": "",
+  "parent": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

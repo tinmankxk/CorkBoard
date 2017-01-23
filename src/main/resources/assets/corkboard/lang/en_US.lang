@@ -1,0 +1,57 @@
+##Item
+item.carbon_fibre_plate.name=Carbon Fibre Plate
+item.carbon_fibre.name=Carbon Fibre
+item.coal_dust.name=Carbon Dust
+item.resistor.name=Resistor
+item.capacitor.name=Capacitor
+item.integrated_circuit.name=Circuit
+item.silicon.name=Silicon
+item.apple_rubber.name=Apple Rubber
+item.future_sword.name=Future Sword
+item.future_sword_blade.name=Future Sword Blade
+item.future_sword_guard.name=Future Sword Guard
+item.future_sword_handle.name=Future Sword Handle
+item.firey_ingot.name=Nth Metal
+item.firey_sword.name=Nth Sword
+
+
+##blocks
+tile.corkboard.name=Corkboard
+tile.basic_tile.name=Tile
+tile.basic_brick.name=Tile Brick
+tile.fire_ore.name=Firey Ore
+##colours!!
+#tile
+tile.tile_time_1.name=White Tile
+tile.tile_time_2.name=Orange Tile
+tile.tile_time_3.name=Magenta Tile
+tile.tile_time_4.name=Light Blue Tile
+tile.tile_time_5.name=Yellow Tile
+tile.tile_time_6.name=Lime Tile
+tile.tile_time_7.name=Pink Tile
+tile.tile_time_8.name=Gray Tile
+tile.tile_time_9.name=Light Gray Tile
+tile.tile_time_10.name=Cyan Tile
+tile.tile_time_11.name=Purple Tile
+tile.tile_time_12.name=Blue Tile
+tile.tile_time_13.name=Brown Tile
+tile.tile_time_14.name=Green Tile
+tile.tile_time_15.name=Red Tile
+tile.tile_time_16.name=Black Tile
+#brick
+tile.brick_time_1.name=White Tile Brick
+tile.brick_time_2.name=Orange Tile Brick
+tile.brick_time_3.name=Magenta Tile Brick
+tile.brick_time_4.name=Light Blue Tile Brick
+tile.brick_time_5.name=Yellow Tile Brick
+tile.brick_time_6.name=Lime Tile Brick
+tile.brick_time_7.name=Pink Tile Brick
+tile.brick_time_8.name=Gray Tile Brick
+tile.brick_time_9.name=Light Gray Tile Brick
+tile.brick_time_10.name=Cyan Tile Brick
+tile.brick_time_11.name=Purple Tile Brick
+tile.brick_time_12.name=Blue Tile Brick
+tile.brick_time_13.name=Brown Tile Brick
+tile.brick_time_14.name=Green Tile Brick
+tile.brick_time_15.name=Red Tile Brick
+tile.brick_time_16.name=Black Tile Brick
