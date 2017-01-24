@@ -20,11 +20,15 @@ public class CorkBoard {
 	public static final String MODNAME = "corkboard";
 	public static final String VERSION = "0.0.1beta";
 
-	@SidedProxy(clientSide = Reference.clientprox, serverSide = Reference.serverprox)
+	@SidedProxy(clientSide = CorkBoard.clientprox, serverSide = CorkBoard.serverprox)
 	public static CommonProxy proxy;
 
 	@Mod.Instance
 	public static CorkBoard instance;
+
+
+	public static final String clientprox = "tinmankxk.corkboard.proxy.ClientProxy";
+	public static final String serverprox = "tinmankxk.corkboard.proxy.ServerProxy";
 
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event)

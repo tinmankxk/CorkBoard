@@ -4,7 +4,6 @@ import net.minecraft.item.Item;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import tinmankxk.corkboard.items.BaseItem;
-import tinmankxk.corkboard.items.BaseItemOre;
 import tinmankxk.corkboard.items.BaseSword;
 import tinmankxk.corkboard.items.ItemModelProvider;
 

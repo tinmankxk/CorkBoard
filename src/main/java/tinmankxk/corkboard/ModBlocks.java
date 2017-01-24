@@ -5,8 +5,6 @@ import net.minecraft.block.material.Material;
 import net.minecraft.item.ItemBlock;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import tinmankxk.corkboard.block.BaseBlock;
-import tinmankxk.corkboard.block.BaseBlockClear;
-import tinmankxk.corkboard.block.BaseBlockColored;
 import tinmankxk.corkboard.block.BaseBlockOre;
 import tinmankxk.corkboard.items.ItemModelProvider;
 
