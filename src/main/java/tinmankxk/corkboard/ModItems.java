@@ -4,6 +4,7 @@ import net.minecraft.item.Item;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import tinmankxk.corkboard.items.BaseItem;
+import tinmankxk.corkboard.items.BasePickaxe;
 import tinmankxk.corkboard.items.BaseSword;
 import tinmankxk.corkboard.items.ItemModelProvider;
 
@@ -23,6 +24,7 @@ public class ModItems {
 	public static BaseItem appleRubber;
 	public static BaseItem firey_ingot;
 	public static BaseSword firey_sword;
+	public static BasePickaxe future_pickaxe;
 
 	public static void init() {
 		appleRubber = register(new BaseItem("apple_rubber").setCreativeTab(NoTab.NoTab));
@@ -37,6 +39,7 @@ public class ModItems {
 		futureSwordBlade = register(new BaseItem("future_sword_blade").setCreativeTab(NoTab.NoTab));
 		futureSwordGuard = register(new BaseItem("future_sword_guard").setCreativeTab(NoTab.NoTab));
 		futureSwordHandle = register(new BaseItem("future_sword_handle").setCreativeTab(NoTab.NoTab));
+		future_pickaxe = register(new BasePickaxe(ModItems.futureMaterial, "future_pickaxe").setCreativeTab(NoTab.NoTab));
 		firey_ingot = register(new BaseItem("firey_ingot").setCreativeTab(NoTab.NoTab));
 		firey_sword = register(new BaseSword(ModItems.fireMaterial, "firey_sword").setCreativeTab(NoTab.NoTab));
 	}
@@ -51,5 +54,5 @@ public class ModItems {
 	}
 
 	public static final Item.ToolMaterial futureMaterial = EnumHelper.addToolMaterial("FUTURE", 10, 4096, 10, 16, 19);
-	public static final Item.ToolMaterial fireMaterial = EnumHelper.addToolMaterial("FIREY", 10, 1024, 10, 12, 23);
+	public static final Item.ToolMaterial fireMaterial = EnumHelper.addToolMaterial("FIREY", 5, 1024, 10, 12, 23);
 }

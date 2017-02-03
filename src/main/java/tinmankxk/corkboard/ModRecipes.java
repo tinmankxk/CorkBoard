@@ -28,8 +28,8 @@ public class ModRecipes {
 		//Blocks
 		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.corkboard), "PPP", "PAP", "PPP", 'P', Blocks.PLANKS, 'A', ModItems.appleRubber);
 		//GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.corkboard_glass, 8), "GGG", "GCG", "GGG", 'G', Blocks.GLASS, 'C', ModBlocks.corkboard);
-		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.basic_tile), " T ", "TST", " T ",  'T', Blocks.STONE_SLAB, 'S', Blocks.STONE);
-		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.basic_brick), "TT", "TT", 'T', ModBlocks.basic_tile);
+		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.basic_tile, 4), " T ", "TST", " T ",  'T', Blocks.STONE_SLAB, 'S', Blocks.STONE);
+		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.basic_brick, 4), "TT", "TT", 'T', ModBlocks.basic_tile);
 
 		/**
 		//Coulours!!

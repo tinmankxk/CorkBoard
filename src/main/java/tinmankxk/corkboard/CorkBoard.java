@@ -36,7 +36,6 @@ public class CorkBoard {
 		proxy.preInit(event);
 		ModBlocks.init();
 		ModItems.init();
-		ModRecipes.init();
 		GameRegistry.registerWorldGenerator(new ModOreGen(), 3);
 	}
 
@@ -44,6 +43,7 @@ public class CorkBoard {
 	@Mod.EventHandler
 	public void init(FMLInitializationEvent event2) {
 		proxy.init(event2);
+		ModRecipes.init();
 	}
 
 	@Mod.EventHandler

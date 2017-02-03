@@ -5,10 +5,8 @@ import net.minecraft.creativetab.CreativeTabs;
 
 public class BaseBlockOre extends BaseBlock {
 
-	public BaseBlockOre(String name){
-		super(Material.ROCK, name);
-		setHardness(3f);
-		setResistance(10f);
+	public BaseBlockOre(String name, Float hrd, Float blst, String tool){
+		super(Material.ROCK, name, hrd, blst, tool, 3, 14f);
 	}
 
 	@Override

@@ -23,11 +23,11 @@ public class ModBlocks
 
 	public static void init()
 	{
-		corkboard = register(new BaseBlock(Material.WOOD, "corkboard").setCreativeTab(NoTab.NoTab));
-		basic_tile = register(new BaseBlock(Material.ROCK, "basic_tile").setCreativeTab(NoTab.NoTab));
-		basic_brick = register(new BaseBlock(Material.ROCK, "basic_brick").setCreativeTab(NoTab.NoTab));
+		corkboard = register(new BaseBlock(Material.WOOD, "corkboard", 4f, 5f, "axe", 2, 1f).setCreativeTab(NoTab.NoTab));
+		basic_tile = register(new BaseBlock(Material.ROCK, "basic_tile", 5F, 10f, "pickaxe", 2, 16f).setCreativeTab(NoTab.NoTab));
+		basic_brick = register(new BaseBlock(Material.ROCK, "basic_brick", 5f, 10f, "pickaxe", 2, 16f).setCreativeTab(NoTab.NoTab));
 		//corkboard_glass = register(new BaseBlockClear(Material.WOOD, "corkboard_glass").setCreativeTab(NoTab.NoTab));
-		fire_ore = register(new BaseBlockOre("fire_ore").setCreativeTab(NoTab.NoTab));
+		fire_ore = register(new BaseBlockOre("fire_ore", 5f, 10f, "pickaxe").setCreativeTab(NoTab.NoTab));
 
 
 		//Colours?
